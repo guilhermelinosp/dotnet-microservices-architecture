@@ -3,6 +3,14 @@
     "appInsights1": {
       "type": "appInsights",
       "dynamicId": null
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mongodb1": {
+      "type": "mongodb",
+      "connectionId": "mongodb:::localhost:27017",
+      "dynamicId": null
     }
   }
 }

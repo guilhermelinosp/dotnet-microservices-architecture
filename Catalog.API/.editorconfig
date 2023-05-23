@@ -18,6 +18,9 @@ csharp_style_expression_bodied_accessors = true:silent
 csharp_style_expression_bodied_lambdas = true:silent
 csharp_style_expression_bodied_local_functions = false:silent
 
+# ReSharper properties
+resharper_apply_on_completion = true
+
 # Xml files
 [*.xml]
 indent_size = 2
