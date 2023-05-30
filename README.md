@@ -22,13 +22,13 @@ To get started with this project, follow the instructions below.
 1. Clone this repository onto your local machine using the following command:
 
    ```shell
-   git clone https://github.com/guilhermelinosp/microservices-architecture-and-implementation.git
+   git clone https://github.com/guilhermelinosp/microservices-architecture-implementation.git
    ```
 
 2. Navigate into the cloned directory:
 
    ```shell
-   cd microservices-architecture-and-implementation
+   cd microservices-architecture-implementation
    ```
 
 3. Start the Docker container using Docker Compose:
