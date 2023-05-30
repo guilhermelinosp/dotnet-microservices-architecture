@@ -1,10 +1,10 @@
-# <div align="center"> Redis API </div>
+# <div align="center"> Microservices Architecture and Implementation </div>
 
 </br>
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=GgyizgXwXAg" target="">
-    <img src="https://i.ytimg.com/vi/GgyizgXwXAg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYBOkqWxHpm8j8JoCLqBlRl789ng" alt="Redis API">
+  <a href="https://www.udemy.com/course/microservices-architecture-and-implementation-on-dotnet" target="">
+    <img height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png">
   </a>
 </div>
 
@@ -14,7 +14,6 @@
 
 - .NET 7.0
 - Docker Compose
-- Redis
 
 ## Getting Started
 
@@ -23,13 +22,13 @@ To get started with this project, follow the instructions below.
 1. Clone this repository onto your local machine using the following command:
 
    ```shell
-   git clone https://github.com/guilhermelinosp/course-redis-api.git
+   git clone https://github.com/guilhermelinosp/microservices-architecture-and-implementation.git
    ```
 
 2. Navigate into the cloned directory:
 
    ```shell
-   cd course-redis-api
+   cd microservices-architecture-and-implementation
    ```
 
 3. Start the Docker container using Docker Compose:
