@@ -1,46 +1,53 @@
-# <div align="center"> Microservices Architecture </div>
+# <div align="center"> Redis API </div>
 
 </br>
 
 <div align="center">
-<p>🚧 It is in Development 🚧</p>
+  <a href="https://www.youtube.com/watch?v=GgyizgXwXAg" target="">
+    <img src="https://i.ytimg.com/vi/GgyizgXwXAg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYBOkqWxHpm8j8JoCLqBlRl789ng" alt="Redis API">
+  </a>
 </div>
 
 </br>
 
 ## Technologies used in the project
 
-- 
-- 
-- 
-- 
-- 
+- .NET 7.0
+- Docker Compose
+- Redis
 
-## Technologies used outside the project
+## Getting Started
 
-- 
-- 
-- 
+To get started with this project, follow the instructions below.
 
-## How to run the project
+1. Clone this repository onto your local machine using the following command:
 
-- Clone this repository
+   ```shell
+   git clone https://github.com/guilhermelinosp/course-redis-api.git
+   ```
 
-```shell
-git clone https://github.com/guilhermelinosp/.git
-```
-</br>
+2. Navigate into the cloned directory:
 
-- Start the Container
+   ```shell
+   cd course-redis-api
+   ```
 
-```shell
-docker compose up --build
-```
-</br>
+3. Start the Docker container using Docker Compose:
 
-- Stop the Container
-	- To stop the Container click CTRL+C in your terminal and then type
+   ```shell
+   docker-compose up -d --build
+   ```
 
-```shell
-docker compose down
-```
+   This command will start the Redis server in a Docker container.
+
+4. To stop the Docker container, use the following command:
+
+   ```shell
+   docker-compose stop
+   ```
+
+5. To remove the Docker container, use the following command:
+
+   ```shell
+   docker-compose down
+   ```
