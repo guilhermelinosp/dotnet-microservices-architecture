@@ -22,13 +22,13 @@ To get started with this project, follow the instructions below.
 1. Clone this repository onto your local machine using the following command:
 
    ```shell
-   git clone https://github.com/guilhermelinosp/microservices-architecture-implementation.git
+   git clone https://github.com/guilhermelinosp/dotnet-microservices-architecture.git
    ```
 
 2. Navigate into the cloned directory:
 
    ```shell
-   cd microservices-architecture-implementation
+   cd dotnet-microservices-architecture
    ```
 
 3. Start the Docker container using Docker Compose:
