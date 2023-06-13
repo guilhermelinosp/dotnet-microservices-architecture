@@ -1,4 +1,4 @@
-name: "CodeQL"
+name: "CodeQL Analysis"
 
 on:
   push:
@@ -7,8 +7,6 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron: '0 0 * * *' # Run daily at midnight UTC
 
 jobs:
   analyze:
@@ -25,20 +23,17 @@ jobs:
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
-      with:
-        languages: csharp
-
-    - name: Build application
-      run: |
-        # Add your build commands here
 
     - name: Autobuild
-      if: startsWith(matrix.language, 'cpp') || startsWith(matrix.language, 'java')
       uses: github/codeql-action/autobuild@v2
-
+      
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
       with:
-        database: codeql-database
-        command: analyze
-        arguments: --format=sarif-latest --output=results.sarif
+        category: "security"
+        add-snippets: true
+      
+    - name: Upload SARIF results
+      uses: github/codeql-action/upload-sarif@v2
+      with:
+        sarif_file: codeql-results.sarif
